@@ -1,5 +1,5 @@
-# .NET 5 WebApi + Blazor + Auth0 JWT & cookies
-A demo of .NET 5 Web API + Blazor + Auth0 with JWT and cookie authentication
+# .NET 5 WebApi + Blazor server + Auth0 JWT & cookies
+A demo of .NET 5 Web API + Blazor server + Auth0 with JWT and cookie authentication
 
 ## Setup
 Make sure you first follow the Auth0 instructions for setting up your Auth0 account:

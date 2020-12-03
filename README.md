@@ -48,5 +48,5 @@ This controller requires cookie authentication. If you try to execute its endpoi
 
 #### JwtWeatherForecast
 
-This controller requires JWT authentication. In order to make successful requests, you'll need issue requests to the endpoint using somerthing like [Postman](https://www.postman.com/), [HttpClient](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-5.0), or [Refit](https://github.com/reactiveui/refit) (my preferred library for creating http clients for use in Xamarin apps). Each HTTP request must contain an Authorization header with contents of "Bearer {your JWT token}".
+This controller requires JWT authentication. In order to make successful requests, you'll need issue requests to the endpoint using something like [Postman](https://www.postman.com/), [HttpClient](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-5.0), or [Refit](https://github.com/reactiveui/refit) (my preferred library for creating http clients for use in Xamarin apps). Each HTTP request must contain an Authorization header with contents of "Bearer {your JWT token}".
 

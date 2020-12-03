@@ -11,6 +11,7 @@ https://auth0.com/docs/get-started/learn-the-basics
 #### Application setup
 
 https://auth0.com/docs/applications/set-up-an-application/register-native-applications
+Make sure you properly set the callback values!!!
 
 #### API setup
 

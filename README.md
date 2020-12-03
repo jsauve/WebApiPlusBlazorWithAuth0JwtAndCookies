@@ -12,7 +12,7 @@ https://auth0.com/docs/get-started/learn-the-basics
 
 https://auth0.com/docs/applications/set-up-an-application/register-native-applications
 
-(Make sure you properly set the callback values in Auth0!!! Usually "https://localhost:5001/callback")
+(Make sure you properly set the callback values in Auth0!!! Usually `https://localhost:5001/callback`)
 
 #### API setup
 

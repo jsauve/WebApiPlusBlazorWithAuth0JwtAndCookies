@@ -46,7 +46,7 @@ This controller requires no authentication. You can use it without logging in.
 
 This controller requires cookie authentication. If you try to execute its endpoint before logging in, you'll see an error message. 
 
-I'm not advocating for using cookies for API controllers (because cookie-based sessions don't scale up as nicely as JWT tokens), but the controller is in the project to demonstrate that as long as you're logged in to the Blazor web app, and because entire Blazor/WebAPI combo app is using cookie auth by default, this controller requires a valid cookie-based session in order to produce successful responses.
+I'm not advocating for using cookies for API controllers (one of the reasons being that cookie-based sessions don't scale up as nicely as JWT tokens), but the controller is in the project to demonstrate that as long as you're logged in to the Blazor web app, and because entire Blazor/WebAPI combo app is using cookie auth by default, this controller requires a valid cookie-based session in order to produce successful responses.
 
 The CookieWeatherForecastController is marked with the `[Authorize]` attribute.
 

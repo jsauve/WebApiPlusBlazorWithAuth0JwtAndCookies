@@ -38,11 +38,11 @@ The "Swagger Doc" menu item will present you with interactive documentation for 
 
 ![app2](app2.jpg)
 
-#### PublicWeatherForecast
+### PublicWeatherForecast
 
 This controller requires no authentication. You can use it without logging in.
 
-#### CookieWeatherForecast
+### CookieWeatherForecast
 
 This controller requires cookie authentication. If you try to execute its endpoint before logging in, you'll see an error message. 
 
@@ -50,7 +50,7 @@ I'm not advocating for using cookies for API controllers (one of the reasons bei
 
 The CookieWeatherForecastController is marked with the `[Authorize]` attribute. It will use whichever authentication scheme has been set as the default in Startup.cs; in the case of this app, that's cookie-based auth.
 
-#### JwtWeatherForecast
+### JwtWeatherForecast
 
 This controller requires JWT authentication. In order to make successful requests, you'll need to issue requests to the endpoint using something like [Postman](https://www.postman.com/), [HttpClient](https://docs.microsoft.com/en-us/dotnet/api/system.net.http.httpclient?view=net-5.0), or [Refit](https://github.com/reactiveui/refit) (my preferred library for creating http clients for use in Xamarin apps). Each HTTP request must contain an `Authorization` header with contents of `Bearer {your user's JWT token}`.
 

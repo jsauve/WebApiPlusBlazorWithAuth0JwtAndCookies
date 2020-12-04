@@ -58,7 +58,7 @@ The JwtWeatherForecastController is marked with the `[Authorize(AuthenticationSc
 
 By using JWT auth on a controller, we force ASP.NET to parse and decode the `Authorization` header on any inbound HTTP requests, and assign it to a `User` property available in the HttpContext. The authorization header format conforms to the standard `Authorization: Bearer {your user's JWT token}`. If the header is present in an HTTP request, but the `AuthenticationSchemes` param hasn't been set to JWT, then ASP.NET won't look for the header and the `User` property in HttpContext will be null.
 
-#### Extending authorization to roles and permissions
+#### Extending authorization to role-based permissions
 Auth0 supports [Role-based Access Control (RBAC)](https://auth0.com/docs/authorization/rbac), and you can learn more about how to configure it [here](https://auth0.com/docs/authorization/how-to-use-auth0s-core-authorization-feature-set). This allows you to partition access to your app / endpoints based on which users should have access to which resources. When implemented, it's as easy as annotating your controllers / pages with something like:
 
 ```[Authorize(Roles = "Admin, ContentCurator, SomeOtherFancyRole")]```

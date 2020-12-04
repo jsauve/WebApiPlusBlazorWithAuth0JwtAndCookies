@@ -22,6 +22,8 @@ https://auth0.com/docs/get-started/set-up-apis
 
 https://auth0.com/docs/identityproviders
 
+I use Google, Facebook, and Twitter as my identity providers. You can choose whichever ones you like.
+
 #### Edit appsettings
 
 Then replace the values in `appsettings.Development.json` with the values from your Auth0 settings.
